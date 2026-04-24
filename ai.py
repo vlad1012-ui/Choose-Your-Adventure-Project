@@ -297,7 +297,7 @@ if gamemode1 == True:
             if option1.lower() in ["play again", "quit", "restart"]:
                 score = f"You got a score of {num}!"
                 # Ending: death or escape — story is over
-                print("""
+                print(r"""
             .-~.                                               
         .-<|←→↓↑|:                                             
         |↱↱↕↔↱↲↓↲←,                                            
